@@ -13,7 +13,7 @@
     "subtitle": "Entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
-    "backgroundImage": "/hero2.png",
+    "backgroundImage": "/chantiers/2.jpeg",
     "backgroundVideo": ""
   },
   "about": {
@@ -23,7 +23,7 @@
         "title": "Isolation thermique",
         "subtitle": "ITE et ITI de qualité",
         "content": "ERTF est spécialisée dans l'isolation thermique par l'extérieur (ITE) et l'isolation intérieure (ITI). Nous accompagnons particuliers et professionnels dans la rénovation énergétique en alliant performance, durabilité et esthétique. Grâce à notre équipe expérimentée et à l'utilisation de matériaux de qualité, nous garantissons des prestations conformes aux normes en vigueur.",
-        "image": "/maison-1.png",
+        "image": "/chantiers/4.jpeg",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
         "buttonText": "Voir nos réalisations",
@@ -35,7 +35,7 @@
         "title": "Ravalement et façade",
         "subtitle": "Embellissement et protection",
         "content": "Nous réalisons tous vos travaux d'enduit, ravalement de façade et bardage en Gironde. Que ce soit pour rénover votre façade ou moderniser votre extérieur, ERTF vous apporte des solutions sur mesure adaptées à chaque type de bâtiment pour un confort durable et des économies d'énergie.",
-        "image": "/maison-2.png",
+        "image": "/chantiers/14.jpeg",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
         "buttonText": "Contactez-nous",
@@ -50,34 +50,174 @@
     "initialDisplayCount": 4,
     "images": [
       {
-        "src": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=800&fit=crop",
-        "alt": "Isolation thermique extérieure",
-        "title": "ITE - Bordeaux (33)"
+        "src": "/chantiers/1.jpeg",
+        "alt": "Chantier isolation thermique",
+        "title": "Isolation thermique - Gironde"
       },
       {
-        "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Ravalement de façade",
-        "title": "Ravalement - Le Bouscat (33)"
+        "src": "/chantiers/2.jpeg",
+        "alt": "Chantier façade",
+        "title": "Ravalement façade - Bordeaux"
       },
       {
-        "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&h=800&fit=crop",
-        "alt": "Isolation intérieure",
-        "title": "ITI - Mérignac (33)"
+        "src": "/chantiers/3.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Le Bouscat"
       },
       {
-        "src": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&h=800&fit=crop",
-        "alt": "Enduit de façade",
-        "title": "Enduit - Pessac (33)"
+        "src": "/chantiers/4.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Mérignac"
       },
       {
-        "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Bardage",
-        "title": "Bardage - Talence (33)"
+        "src": "/chantiers/5.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit façade - Pessac"
       },
       {
-        "src": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=800&fit=crop",
-        "alt": "Rénovation énergétique",
-        "title": "Rénovation - Villenave-d'Ornon (33)"
+        "src": "/chantiers/6.jpeg",
+        "alt": "Chantier bardage",
+        "title": "Bardage - Talence"
+      },
+      {
+        "src": "/chantiers/7.jpeg",
+        "alt": "Chantier rénovation",
+        "title": "Rénovation - Villenave-d'Ornon"
+      },
+      {
+        "src": "/chantiers/8.jpeg",
+        "alt": "Chantier isolation extérieure",
+        "title": "ITE - Gradignan"
+      },
+      {
+        "src": "/chantiers/9.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Bègles"
+      },
+      {
+        "src": "/chantiers/10.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Floirac"
+      },
+      {
+        "src": "/chantiers/11.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit - Cenon"
+      },
+      {
+        "src": "/chantiers/12.jpeg",
+        "alt": "Chantier ravalement",
+        "title": "Ravalement - Lormont"
+      },
+      {
+        "src": "/chantiers/13.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Blanquefort"
+      },
+      {
+        "src": "/chantiers/14.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Eysines"
+      },
+      {
+        "src": "/chantiers/15.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Saint-Médard-en-Jalles"
+      },
+      {
+        "src": "/chantiers/16.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit - Parempuyre"
+      },
+      {
+        "src": "/chantiers/17.jpeg",
+        "alt": "Chantier ravalement",
+        "title": "Ravalement - Ambarès-et-Lagrave"
+      },
+      {
+        "src": "/chantiers/18.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Carbon-Blanc"
+      },
+      {
+        "src": "/chantiers/19.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Bassens"
+      },
+      {
+        "src": "/chantiers/20.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Sainte-Eulalie"
+      },
+      {
+        "src": "/chantiers/21.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit - Saint-Louis-de-Montferrand"
+      },
+      {
+        "src": "/chantiers/22.jpeg",
+        "alt": "Chantier ravalement",
+        "title": "Ravalement - Montussan"
+      },
+      {
+        "src": "/chantiers/23.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Yvrac"
+      },
+      {
+        "src": "/chantiers/24.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Artigues-près-Bordeaux"
+      },
+      {
+        "src": "/chantiers/25.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Tresses"
+      },
+      {
+        "src": "/chantiers/26.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit - Fargues-Saint-Hilaire"
+      },
+      {
+        "src": "/chantiers/27.jpeg",
+        "alt": "Chantier ravalement",
+        "title": "Ravalement - Pompignac"
+      },
+      {
+        "src": "/chantiers/28.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Sallebœuf"
+      },
+      {
+        "src": "/chantiers/29.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Beychac-et-Caillau"
+      },
+      {
+        "src": "/chantiers/30.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Camblanes-et-Meynac"
+      },
+      {
+        "src": "/chantiers/31.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit - Quinsac"
+      },
+      {
+        "src": "/chantiers/32.jpeg",
+        "alt": "Chantier ravalement",
+        "title": "Ravalement - Cambes"
+      },
+      {
+        "src": "/chantiers/33.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Baurech"
+      },
+      {
+        "src": "/chantiers/34.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Latresne"
       }
     ]
   },
