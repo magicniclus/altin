@@ -55,7 +55,7 @@ export default function Navigation() {
 
   return (
     <>
-      <nav className="bg-background/95 supports-[backdrop-filter]:bg-background/60 border-b z-50">
+      <nav className="bg-white/95 supports-[backdrop-filter]:bg-white/90 border-b border-gray-200 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
           {/* Logo à gauche */}
@@ -68,7 +68,7 @@ export default function Navigation() {
           >
             <Link href="/" className="flex items-center space-x-2">
               <motion.div 
-                className="w-12 h-12 rounded-xl bg-slate-700 flex items-center justify-center shadow-lg overflow-hidden"
+                className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden"
                 whileHover={{ rotate: 5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
@@ -199,7 +199,7 @@ export default function Navigation() {
             <div className="flex justify-between items-center p-6 border-b">
               <div className="flex items-center space-x-2">
                 <motion.div 
-                  className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg overflow-hidden"
+                  className="w-10 h-10 rounded-xl bg-orange-500 flex items-center justify-center shadow-lg overflow-hidden"
                   whileHover={{ rotate: 5 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
