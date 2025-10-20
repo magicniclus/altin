@@ -104,19 +104,19 @@
   "partners": {
     "logos": [
       {
-        "src": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&h=100&fit=crop",
-        "alt": "Point P",
-        "name": "Point P"
+        "src": "/logo/SMA_BTP.png",
+        "alt": "SMA BTP",
+        "name": "SMA BTP"
       },
       {
-        "src": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=100&fit=crop",
-        "alt": "Chausson",
-        "name": "Chausson"
+        "src": "/logo/decennale.png",
+        "alt": "Garantie Décennale",
+        "name": "Garantie Décennale"
       },
       {
-        "src": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=200&h=100&fit=crop",
-        "alt": "Unikalo",
-        "name": "Unikalo"
+        "src": "/logo/tmc-partenaire.png",
+        "alt": "TMC Partenaire",
+        "name": "TMC Partenaire"
       }
     ]
   },
