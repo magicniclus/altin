@@ -228,16 +228,10 @@
   "team": {
     "members": [
       {
-        "name": "Abdelkrim HAMDI",
+        "name": "Mr HAMDI",
         "position": "Gérant ERTF",
         "description": "Gérant d'ERTF depuis 2022, spécialisé dans l'isolation thermique et les travaux de façade. 4 ans d'expérience en tant que conducteur de travaux en tout corps d'état et façade. Certifié ITE avec garantie décennale.",
-        "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
-      },
-      {
-        "name": "Équipe ERTF",
-        "position": "Équipe Spécialisée",
-        "description": "Une équipe de 2 à 5 collaborateurs expérimentés, spécialisés dans l'isolation thermique par l'extérieur, l'isolation intérieure et les travaux de façade en Gironde.",
-        "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
+        "photo": "/client.jpeg"
       }
     ]
   },

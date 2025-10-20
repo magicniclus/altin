@@ -63,7 +63,7 @@ export default function ProjectGallery({
   };
 
   const showMoreImages = () => {
-    setDisplayCount(images.length);
+    setDisplayCount(galleryImages.length);
   };
 
   useEffect(() => {
@@ -142,7 +142,7 @@ export default function ProjectGallery({
                 className="bg-orange-500 hover:bg-orange-600 text-white shadow-lg hover:shadow-xl transition-all duration-300"
                 onClick={showMoreImages}
               >
-                Voir plus de réalisations ({images.length - displayCount} restantes)
+                Voir plus de réalisations ({galleryImages.length - displayCount} restantes)
               </Button>
             </motion.div>
           )}
@@ -168,10 +168,6 @@ export default function ProjectGallery({
               <X className="h-6 w-6" />
             </button>
 
-            {/* Image Counter */}
-            <div className="absolute top-6 left-1/2 -translate-x-1/2 z-30 text-white text-sm bg-black/70 px-4 py-2 rounded-full">
-              {current} / {count}
-            </div>
 
             {/* Carousel Container */}
             <motion.div
@@ -184,7 +180,7 @@ export default function ProjectGallery({
             >
               <Carousel 
                 setApi={setApi}
-                className="w-full h-full max-w-[95vw] max-h-[95vh] flex items-center justify-center"
+                className="w-full h-full max-w-[95vw] max-h-[95vh]"
                 opts={{
                   align: "center",
                   loop: true,
@@ -193,7 +189,7 @@ export default function ProjectGallery({
                   startIndex: selectedImageIndex,
                 }}
               >
-                <CarouselContent className="-ml-1 h-full">
+                <CarouselContent className="-ml-1 h-full flex items-center">
                   {galleryImages.map((image, index) => (
                     <CarouselItem key={index} className="h-full flex items-center justify-center pl-0">
                       <div className="relative w-full h-full flex items-center justify-center p-2 md:p-4">
@@ -202,7 +198,7 @@ export default function ProjectGallery({
                           alt={image.alt}
                           width={1200}
                           height={800}
-                          className="object-contain max-w-full max-h-[90vh] rounded-lg"
+                          className="object-contain max-w-full max-h-[85vh] rounded-lg"
                           priority={index === current - 1}
                         />
                       </div>
@@ -230,14 +226,6 @@ export default function ProjectGallery({
                 </button>
               </Carousel>
 
-              {/* Image Info */}
-              {galleryImages[current - 1]?.title && (
-                <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-30 text-center">
-                  <p className="text-white text-lg font-medium bg-black/70 px-6 py-3 rounded-lg">
-                    {galleryImages[current - 1].title}
-                  </p>
-                </div>
-              )}
             </motion.div>
           </motion.div>
         )}

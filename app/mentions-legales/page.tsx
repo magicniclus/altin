@@ -52,11 +52,12 @@ export default function MentionsLegalesPage() {
               <div className="space-y-4 text-gray-600">
                 <p><strong>Raison sociale :</strong> {config.company.legalName}</p>
                 <p><strong>Siège social :</strong> {config.company.address}</p>
-                <p><strong>Capital social :</strong> 50 000 €</p>
-                <p><strong>RCS :</strong> Paris B {config.company.siret}</p>
-                <p><strong>SIRET :</strong> {config.company.siret}</p>
-                <p><strong>Code APE :</strong> 6201Z</p>
-                <p><strong>TVA intracommunautaire :</strong> FR12 123456789</p>
+                <p><strong>SIREN :</strong> 911 471 902</p>
+                <p><strong>SIRET du siège social :</strong> 911 471 902 00021</p>
+                <p><strong>Numéro de TVA :</strong> FR74911471902</p>
+                <p><strong>Code APE :</strong> Travaux de maçonnerie générale et gros œuvre de bâtiment</p>
+                <p><strong>Forme juridique :</strong> Société à responsabilité limitée (SARL)</p>
+                <p><strong>Date de création :</strong> 13 avril 2022</p>
               </div>
             </div>
 
@@ -65,7 +66,9 @@ export default function MentionsLegalesPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Directeur de publication</h2>
               <div className="space-y-4 text-gray-600">
                 <p><strong>Nom :</strong> {config.company.ceo}</p>
-                <p><strong>Qualité :</strong> Président de {config.company.legalName}</p>
+                <p><strong>Qualité :</strong> Gérant de {config.company.legalName}</p>
+                <p><strong>Né en :</strong> 1988 (37 ans)</p>
+                <p><strong>Gérant depuis le :</strong> 15 avril 2022 (3 ans)</p>
               </div>
             </div>
 

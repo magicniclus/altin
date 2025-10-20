@@ -24,7 +24,7 @@ export default function Home() {
       title: "Isolation Thermique Extérieure",
       subtitle: "ITE de qualité",
       content: "Amélioration de la performance énergétique de votre bâtiment avec notre expertise en isolation thermique par l'extérieur. Matériaux de qualité et conformité aux normes.",
-      image: "/macon.png",
+      image: "/card1.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b"
     },
@@ -32,7 +32,7 @@ export default function Home() {
       title: "Isolation Thermique Intérieure",
       subtitle: "ITI performante",
       content: "Solutions d'isolation intérieure adaptées à votre logement pour un confort optimal et des économies d'énergie durables.",
-      image: "/menuiserie.png",
+      image: "/card2.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2"
     },
@@ -40,7 +40,7 @@ export default function Home() {
       title: "Ravalement de Façade",
       subtitle: "Embellissement et protection",
       content: "Rénovation et embellissement de vos façades avec des techniques professionnelles. Enduits, bardage et solutions sur mesure.",
-      image: "/terrassement.png",
+      image: "/card3.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997"
     }
