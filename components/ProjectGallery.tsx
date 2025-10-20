@@ -175,7 +175,7 @@ export default function ProjectGallery({
 
             {/* Carousel Container */}
             <motion.div
-              className="relative w-full md:h-full flex items-center justify-center md:flex md:items-center md:justify-center"
+              className="relative w-full h-full flex items-center justify-center"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
@@ -184,7 +184,7 @@ export default function ProjectGallery({
             >
               <Carousel 
                 setApi={setApi}
-                className="w-full h-full max-w-[95vw] max-h-[95vh]"
+                className="w-full h-full max-w-[95vw] max-h-[95vh] flex items-center justify-center"
                 opts={{
                   align: "center",
                   loop: true,
@@ -193,7 +193,7 @@ export default function ProjectGallery({
                   startIndex: selectedImageIndex,
                 }}
               >
-                <CarouselContent className="-ml-1">
+                <CarouselContent className="-ml-1 h-full">
                   {galleryImages.map((image, index) => (
                     <CarouselItem key={index} className="h-full flex items-center justify-center pl-0">
                       <div className="relative w-full h-full flex items-center justify-center p-2 md:p-4">
@@ -202,7 +202,7 @@ export default function ProjectGallery({
                           alt={image.alt}
                           width={1200}
                           height={800}
-                          className="object-contain max-w-full max-h-full rounded-lg"
+                          className="object-contain max-w-full max-h-[90vh] rounded-lg"
                           priority={index === current - 1}
                         />
                       </div>
