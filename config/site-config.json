@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "Adbetton",
-    "legalName": "Adbetton",
-    "address": "Secteurs d'activité : Ille-et-Vilaine (35), Côtes-d'Armor (22), Manche (50)",
-    "phone": "07 49 22 93 92",
-    "email": "adbetton32@gmail.com",
+    "name": "ERTF",
+    "legalName": "ERTF EURL",
+    "address": "81 Boulevard Pierre 1er, 33110 Le Bouscat",
+    "phone": "07 83 93 86 94",
+    "email": "ertftravaux@gmail.com",
     "siret": "",
-    "ceo": "Adbetton"
+    "ceo": "Abdelkrim HAMDI"
   },
   "hero": {
-    "title": "Adbetton - Maçonnerie Générale",
-    "subtitle": "Spécialiste en maçonnerie générale (gros second œuvre) et pose de menuiserie. Votre partenaire de confiance pour tous vos projets de construction et rénovation en Bretagne et Normandie.",
+    "title": "ERTF - Isolation et Façade",
+    "subtitle": "Entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "/maison-hero.png",
@@ -20,9 +20,9 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Maçonnerie générale",
-        "subtitle": "Gros second œuvre de qualité",
-        "content": "Spécialisés dans la maçonnerie générale et le gros second œuvre, nous réalisons tous vos travaux de construction : élévation de murs, cloisons, dalles, chapes. Notre savoir-faire garantit des réalisations durables et conformes aux normes en vigueur pour tous vos projets de construction neuve ou de rénovation.",
+        "title": "Isolation thermique",
+        "subtitle": "ITE et ITI de qualité",
+        "content": "ERTF est spécialisée dans l'isolation thermique par l'extérieur (ITE) et l'isolation intérieure (ITI). Nous accompagnons particuliers et professionnels dans la rénovation énergétique en alliant performance, durabilité et esthétique. Grâce à notre équipe expérimentée et à l'utilisation de matériaux de qualité, nous garantissons des prestations conformes aux normes en vigueur.",
         "image": "/maison-1.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
@@ -32,9 +32,9 @@
       },
       {
         "smallTitle": "Nos spécialités",
-        "title": "Pose de menuiserie",
-        "subtitle": "Installation professionnelle",
-        "content": "Notre expertise en pose de menuiserie nous permet de vous offrir des installations de qualité : fenêtres, portes, volets, cloisons. Nous travaillons avec des matériaux de qualité et respectons les règles de l'art pour garantir l'étanchéité, l'isolation et la durabilité de vos menuiseries.",
+        "title": "Ravalement et façade",
+        "subtitle": "Embellissement et protection",
+        "content": "Nous réalisons tous vos travaux d'enduit, ravalement de façade et bardage en Gironde. Que ce soit pour rénover votre façade ou moderniser votre extérieur, ERTF vous apporte des solutions sur mesure adaptées à chaque type de bâtiment pour un confort durable et des économies d'énergie.",
         "image": "/maison-2.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -46,38 +46,38 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos derniers chantiers en Bretagne et Normandie",
+    "subtitle": "Découvrez nos derniers chantiers d'isolation et façade en Gironde",
     "initialDisplayCount": 4,
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=800&fit=crop",
-        "alt": "Maçonnerie générale",
-        "title": "Élévation murs - Rennes (35)"
+        "alt": "Isolation thermique extérieure",
+        "title": "ITE - Bordeaux (33)"
       },
       {
         "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Pose de menuiserie",
-        "title": "Installation fenêtres - Saint-Brieuc (22)"
+        "alt": "Ravalement de façade",
+        "title": "Ravalement - Le Bouscat (33)"
       },
       {
         "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&h=800&fit=crop",
-        "alt": "Gros second œuvre",
-        "title": "Construction neuve - Cherbourg (50)"
+        "alt": "Isolation intérieure",
+        "title": "ITI - Mérignac (33)"
       },
       {
         "src": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&h=800&fit=crop",
-        "alt": "Cloisons maçonnerie",
-        "title": "Cloisons intérieures - Fougères (35)"
+        "alt": "Enduit de façade",
+        "title": "Enduit - Pessac (33)"
       },
       {
         "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Pose de portes",
-        "title": "Installation portes - Lannion (22)"
+        "alt": "Bardage",
+        "title": "Bardage - Talence (33)"
       },
       {
         "src": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=800&fit=crop",
-        "alt": "Rénovation maçonnerie",
-        "title": "Rénovation - Granville (50)"
+        "alt": "Rénovation énergétique",
+        "title": "Rénovation - Villenave-d'Ornon (33)"
       }
     ]
   },
@@ -88,15 +88,15 @@
   "team": {
     "members": [
       {
-        "name": "Adbetton",
-        "position": "Artisan Maçon",
-        "description": "Auto-entrepreneur spécialisé en maçonnerie générale et pose de menuiserie depuis 2022. Expert du gros second œuvre avec garantie décennale.",
+        "name": "Abdelkrim HAMDI",
+        "position": "Gérant ERTF",
+        "description": "Gérant d'ERTF depuis 2022, spécialisé dans l'isolation thermique et les travaux de façade. 4 ans d'expérience en tant que conducteur de travaux en tout corps d'état et façade. Certifié ITE avec garantie décennale.",
         "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
       },
       {
-        "name": "Équipe Adbetton",
-        "position": "Équipe de Maçons",
-        "description": "Une équipe de 2 à 5 collaborateurs expérimentés, spécialisés dans les travaux de maçonnerie et la pose de menuiserie.",
+        "name": "Équipe ERTF",
+        "position": "Équipe Spécialisée",
+        "description": "Une équipe de 2 à 5 collaborateurs expérimentés, spécialisés dans l'isolation thermique par l'extérieur, l'isolation intérieure et les travaux de façade en Gironde.",
         "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
       }
     ]
@@ -105,33 +105,18 @@
     "logos": [
       {
         "src": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&h=100&fit=crop",
-        "alt": "Partenaire 1",
-        "name": "Partner 1"
+        "alt": "Point P",
+        "name": "Point P"
       },
       {
         "src": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=100&fit=crop",
-        "alt": "Partenaire 2",
-        "name": "Partner 2"
+        "alt": "Chausson",
+        "name": "Chausson"
       },
       {
         "src": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=200&h=100&fit=crop",
-        "alt": "Partenaire 3",
-        "name": "Partner 3"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=200&h=100&fit=crop",
-        "alt": "Partenaire 4",
-        "name": "Partner 4"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=200&h=100&fit=crop",
-        "alt": "Partenaire 5",
-        "name": "Partner 5"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=200&h=100&fit=crop",
-        "alt": "Partenaire 6",
-        "name": "Partner 6"
+        "alt": "Unikalo",
+        "name": "Unikalo"
       }
     ]
   },

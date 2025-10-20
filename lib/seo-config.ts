@@ -14,32 +14,31 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "Adbetton - Maçonnerie Générale & Pose de Menuiserie en Bretagne et Normandie",
-  description: "Adbetton, auto-entrepreneur spécialisé en maçonnerie générale (gros second œuvre) et pose de menuiserie. Devis gratuit en Ille-et-Vilaine, Côtes-d'Armor et Manche.",
+  title: "ERTF - Isolation Thermique & Façade en Gironde | ITE ITI Ravalement",
+  description: "ERTF, entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde. Devis gratuit.",
   keywords: [
-    "maçonnerie générale Bretagne",
-    "gros second œuvre Ille-et-Vilaine",
-    "pose menuiserie Côtes-d'Armor",
-    "artisan maçon Manche",
-    "construction Bretagne",
-    "maçon Rennes",
-    "menuiserie Saint-Brieuc",
-    "maçonnerie Cherbourg",
-    "gros œuvre",
-    "cloisons",
+    "isolation thermique extérieure Gironde",
+    "ITE Bordeaux",
+    "isolation intérieure ITI",
+    "ravalement façade Le Bouscat",
+    "enduit façade Gironde",
+    "bardage Bordeaux",
+    "rénovation énergétique",
+    "isolation thermique",
+    "façade",
     "devis gratuit",
-    "Adbetton",
-    "travaux maison",
+    "ERTF",
+    "travaux isolation",
     "garantie décennale",
-    "auto-entrepreneur bâtiment"
+    "entreprise isolation Gironde"
   ],
-  author: "Adbetton",
-  siteUrl: "https://adbetton.fr",
-  siteName: "Adbetton - Maçonnerie Générale",
+  author: "ERTF",
+  siteUrl: "https://ertf-habitat.fr",
+  siteName: "ERTF - Isolation & Façade",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
-  twitterHandle: "@adbetton"
+  twitterHandle: "@ertf"
 };
 
 export function generateMetadata(
@@ -116,48 +115,51 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "Adbetton",
-  "legalName": "Adbetton",
+  "name": "ERTF",
+  "legalName": "ERTF EURL",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Adbetton"
+    "name": "Abdelkrim HAMDI"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressRegion": "Bretagne",
+    "streetAddress": "81 Boulevard Pierre 1er",
+    "postalCode": "33110",
+    "addressLocality": "Le Bouscat",
+    "addressRegion": "Gironde",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33749229392",
+    "telephone": "+33783938694",
     "contactType": "customer service",
-    "email": "adbetton32@gmail.com",
+    "email": "ertftravaux@gmail.com",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Ille-et-Vilaine"
+      "name": "Gironde"
     },
     {
       "@type": "AdministrativeArea", 
-      "name": "Côtes-d'Armor"
+      "name": "Bordeaux"
     },
     {
       "@type": "AdministrativeArea",
-      "name": "Manche"
+      "name": "Le Bouscat"
     }
   ],
   "serviceType": [
-    "Maçonnerie générale",
-    "Gros second œuvre", 
-    "Pose de menuiserie",
-    "Construction",
-    "Rénovation"
+    "Isolation thermique par l'extérieur",
+    "Isolation thermique par l'intérieur", 
+    "Ravalement de façade",
+    "Enduit de façade",
+    "Bardage"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -170,31 +172,39 @@ export const organizationSchema = {
 export const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Construction Services",
+  "serviceType": "Insulation and Facade Services",
   "provider": {
     "@id": `${seoConfig.siteUrl}#organization`
   },
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de construction",
+    "name": "Services d'isolation et façade",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Maçonnerie générale",
-          "description": "Élévation de murs, cloisons, dalles, chapes, gros second œuvre"
+          "name": "Isolation thermique par l'extérieur (ITE)",
+          "description": "Amélioration de la performance énergétique avec isolation extérieure"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Pose de menuiserie",
-          "description": "Installation de fenêtres, portes, volets, cloisons"
+          "name": "Isolation thermique par l'intérieur (ITI)",
+          "description": "Solutions d'isolation intérieure pour confort optimal"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Ravalement de façade",
+          "description": "Rénovation et embellissement des façades, enduits, bardage"
         }
       }
     ]
   }
-};
+}

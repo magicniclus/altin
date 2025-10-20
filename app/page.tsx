@@ -21,30 +21,38 @@ export default function Home() {
   });
   const servicesData = [
     {
-      title: "Maçonnerie Générale",
-      subtitle: "Gros Second Œuvre",
-      content: "Élévation de murs, cloisons, dalles, chapes. Nous réalisons tous vos travaux de maçonnerie générale avec expertise et garantie décennale.",
+      title: "Isolation Thermique Extérieure",
+      subtitle: "ITE de qualité",
+      content: "Amélioration de la performance énergétique de votre bâtiment avec notre expertise en isolation thermique par l'extérieur. Matériaux de qualité et conformité aux normes.",
       image: "/macon.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b"
     },
     {
-      title: "Pose de Menuiserie",
-      subtitle: "Installation Professionnelle",
-      content: "Fenêtres, portes, volets, cloisons. Nous installons vos menuiseries avec précision en respectant les règles de l'art.",
+      title: "Isolation Thermique Intérieure",
+      subtitle: "ITI performante",
+      content: "Solutions d'isolation intérieure adaptées à votre logement pour un confort optimal et des économies d'énergie durables.",
       image: "/menuiserie.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2"
+    },
+    {
+      title: "Ravalement de Façade",
+      subtitle: "Embellissement et protection",
+      content: "Rénovation et embellissement de vos façades avec des techniques professionnelles. Enduits, bardage et solutions sur mesure.",
+      image: "/terrassement.png",
+      gradientFrom: "#28a745",
+      gradientTo: "#20c997"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "Zones d'intervention :\nIlle-et-Vilaine (35), Côtes-d'Armor (22)\nManche (50)",
-    phone: "07 49 22 93 92",
-    email: "adbetton32@gmail.com",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Bretagne,France&t=&z=8&ie=UTF8&iwloc=&output=embed"
+    address: "81 Boulevard Pierre 1er\n33110 Le Bouscat\nRayon d'intervention : 150 km",
+    phone: "07 83 93 86 94",
+    email: "ertftravaux@gmail.com",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Le+Bouscat,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -95,7 +103,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de maçonnerie ou pose de menuiserie en Bretagne et Normandie"
+        subtitle="Parlons de votre projet d'isolation thermique et façade en Gironde"
         contactInfo={contactInfo} 
       />
 

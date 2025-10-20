@@ -45,11 +45,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Zones d'intervention :\nIlle-et-Vilaine (35)\nCôtes-d'Armor (22)\nManche (50)",
-    phone: "07 49 22 93 92",
-    email: "adbetton32@gmail.com",
+    address: "81 Boulevard Pierre 1er\n33110 Le Bouscat\nRayon d'intervention : 150 km",
+    phone: "07 83 93 86 94",
+    email: "ertftravaux@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Bretagne,France&t=&z=8&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=Le+Bouscat,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -67,10 +67,10 @@ export default function ContactPage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">
-              Contactez-nous
+              Contactez ERTF
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de maçonnerie ou de pose de menuiserie ? Notre équipe est là pour vous accompagner en Bretagne et Normandie.
+              Un projet d'isolation thermique ou de façade ? Notre équipe ERTF est là pour vous accompagner en Gironde.
             </p>
           </motion.div>
         </div>

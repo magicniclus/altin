@@ -25,12 +25,12 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "Adbetton - Maçonnerie générale et pose de menuiserie",
-  description = "Auto-entrepreneur spécialisé en maçonnerie générale (gros second œuvre) et pose de menuiserie. Votre partenaire de confiance pour tous vos projets de construction et rénovation dans le secteur d'Ertfé et ses environs.",
+  title = "ERTF - Isolation et Façade",
+  description = "Entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde.",
   bulletPoints = [
-    "Auto-entrepreneur avec garantie décennale",
-    "Équipe de 2 professionnels expérimentés",
-    "Intervention dans le secteur d'Ertfé et ses environs"
+    "EURL avec garantie décennale et RC",
+    "Équipe de 2 à 5 professionnels expérimentés",
+    "Intervention dans un rayon de 150 km"
   ],
   googleReviewsWidget
 }: HeroProps) {
