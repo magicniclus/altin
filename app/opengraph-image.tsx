@@ -48,7 +48,7 @@ export default async function Image() {
               lineHeight: '1.1',
             }}
           >
-            Belrhali
+            ERTF
           </h1>
           <p
             style={{
@@ -58,7 +58,7 @@ export default async function Image() {
               lineHeight: '1.3',
             }}
           >
-            Artisan du Bâtiment
+            Isolation & Façade
           </p>
           <div
             style={{
@@ -69,11 +69,11 @@ export default async function Image() {
               color: '#374151',
             }}
           >
-            <span>Maçonnerie</span>
+            <span>ITE</span>
             <span>•</span>
-            <span>Terrassement</span>
+            <span>ITI</span>
             <span>•</span>
-            <span>Menuiserie</span>
+            <span>Ravalement</span>
           </div>
           <p
             style={{
@@ -82,7 +82,7 @@ export default async function Image() {
               margin: '30px 0 0 0',
             }}
           >
-            Nouvelle-Aquitaine
+            Gironde - Bordeaux
           </p>
         </div>
       </div>
