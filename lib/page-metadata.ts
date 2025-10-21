@@ -3,49 +3,49 @@ import { generateMetadata } from './seo-config';
 
 // Métadonnées pour la page d'accueil
 export const homeMetadata: Metadata = generateMetadata(
-  "Belrhali - Artisan Maçonnerie, Terrassement & Menuiserie en Nouvelle-Aquitaine",
-  "Belrhali, artisan du bâtiment spécialisé en maçonnerie, terrassement et menuiserie. Devis gratuit en Corrèze, Dordogne, Haute-Vienne, Lot, Gironde et Lot-et-Garonne. Expertise locale depuis 15 ans.",
-  "/og-belrhali-home.jpg",
+  "ERTF - Isolation Thermique & Façade en Gironde | ITE ITI Ravalement",
+  "ERTF, entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde. Devis gratuit.",
+  "/og-image.jpg",
   "/"
 );
 
 // Métadonnées pour la section services
 export const servicesMetadata = {
-  title: "Services de Maçonnerie, Terrassement et Menuiserie | Belrhali",
-  description: "Découvrez nos services : maçonnerie (fondations, murs porteurs), terrassement (excavation, drainage) et menuiserie (fenêtres, portes). Devis gratuit en Nouvelle-Aquitaine.",
+  title: "Services d'Isolation Thermique et Façade | ERTF Gironde",
+  description: "Découvrez nos services : isolation thermique extérieure (ITE), isolation intérieure (ITI), ravalement de façade, enduit et bardage. Devis gratuit en Gironde.",
   keywords: [
-    "services maçonnerie",
-    "terrassement professionnel", 
-    "menuiserie sur mesure",
-    "fondations béton",
-    "excavation terrain",
-    "fenêtres portes"
+    "services isolation thermique",
+    "ITE professionnel", 
+    "ITI sur mesure",
+    "ravalement façade",
+    "enduit extérieur",
+    "bardage moderne"
   ]
 };
 
 // Métadonnées pour la section réalisations
 export const realisationsMetadata = {
-  title: "Nos Réalisations en Maçonnerie et Construction | Belrhali",
-  description: "Découvrez nos dernières réalisations en maçonnerie, terrassement et menuiserie en Nouvelle-Aquitaine. Projets résidentiels et commerciaux de qualité.",
+  title: "Nos Réalisations en Isolation et Façade | ERTF",
+  description: "Découvrez nos dernières réalisations en isolation thermique et façade en Gironde. Projets résidentiels et commerciaux de qualité avec garantie décennale.",
   keywords: [
-    "réalisations maçonnerie",
-    "projets construction",
-    "chantiers Nouvelle-Aquitaine",
-    "travaux finis",
-    "portfolio bâtiment"
+    "réalisations isolation",
+    "projets façade",
+    "chantiers Gironde",
+    "travaux ITE ITI",
+    "portfolio isolation"
   ]
 };
 
 // Métadonnées pour la section contact
 export const contactMetadata = {
-  title: "Contact et Devis Gratuit | Belrhali Artisan Bâtiment",
-  description: "Contactez Belrhali pour un devis gratuit. Intervention en Corrèze, Dordogne, Haute-Vienne, Lot, Gironde et Lot-et-Garonne. Réponse rapide garantie.",
+  title: "Contact et Devis Gratuit | ERTF Isolation Façade",
+  description: "Contactez ERTF pour un devis gratuit d'isolation thermique et façade. Intervention en Gironde et Bordeaux. Réponse rapide garantie.",
   keywords: [
-    "devis gratuit maçonnerie",
-    "contact artisan bâtiment",
-    "Corrèze Dordogne",
-    "Haute-Vienne Lot",
-    "Gironde Lot-et-Garonne"
+    "devis gratuit isolation",
+    "contact entreprise façade",
+    "Gironde Bordeaux",
+    "Le Bouscat",
+    "isolation thermique"
   ]
 };
 
@@ -63,7 +63,7 @@ export function generateSectionMetadata(
   return generateMetadata(
     sectionData.title,
     sectionData.description,
-    `/og-belrhali-${section}.jpg`,
+    `/og-image.jpg`,
     `${baseUrl}#${section}`
   );
 }
