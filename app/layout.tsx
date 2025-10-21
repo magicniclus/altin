@@ -5,32 +5,32 @@ import Footer from "../components/Footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Adbetton - Maçonnerie Générale & Pose de Menuiserie en Bretagne et Normandie",
-  description: "Adbetton, auto-entrepreneur spécialisé en maçonnerie générale (gros second œuvre) et pose de menuiserie. Devis gratuit en Ille-et-Vilaine, Côtes-d'Armor et Manche. Garantie décennale.",
-  keywords: "maçonnerie générale Bretagne, gros second œuvre Ille-et-Vilaine, pose menuiserie Côtes-d'Armor, artisan maçon Manche, construction Bretagne, maçon Rennes, menuiserie Saint-Brieuc, maçonnerie Cherbourg, gros œuvre, cloisons, devis gratuit, Adbetton, travaux maison, garantie décennale, auto-entrepreneur bâtiment",
-  authors: [{ name: "Adbetton" }],
-  creator: "Adbetton",
-  publisher: "Adbetton",
+  title: "ERTF - Isolation Thermique & Façade en Gironde | ITE ITI Ravalement",
+  description: "ERTF, entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde. Devis gratuit.",
+  keywords: "isolation thermique extérieure Gironde, ITE Bordeaux, isolation intérieure ITI, ravalement façade Le Bouscat, enduit façade Gironde, bardage Bordeaux, rénovation énergétique, isolation thermique, façade, devis gratuit, ERTF, travaux isolation, garantie décennale, entreprise isolation Gironde",
+  authors: [{ name: "ERTF" }],
+  creator: "ERTF",
+  publisher: "ERTF",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://adbetton.fr"),
+  metadataBase: new URL("https://ertf-habitat.fr"),
   alternates: {
-    canonical: "https://adbetton.fr",
+    canonical: "https://ertf-habitat.fr",
   },
   openGraph: {
-    title: "Adbetton - Maçonnerie Générale & Pose de Menuiserie en Bretagne et Normandie",
-    description: "Adbetton, auto-entrepreneur spécialisé en maçonnerie générale (gros second œuvre) et pose de menuiserie. Devis gratuit en Ille-et-Vilaine, Côtes-d'Armor et Manche.",
-    url: "https://adbetton.fr",
-    siteName: "Adbetton - Maçonnerie Générale",
+    title: "ERTF - Isolation Thermique & Façade en Gironde | ITE ITI Ravalement",
+    description: "ERTF, entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde.",
+    url: "https://ertf-habitat.fr",
+    siteName: "ERTF - Isolation & Façade",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Adbetton - Maçonnerie Générale en Bretagne et Normandie",
+        alt: "ERTF - Isolation Thermique & Façade en Gironde",
       },
     ],
     locale: "fr_FR",
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adbetton - Maçonnerie Générale & Pose de Menuiserie",
-    description: "Auto-entrepreneur en Bretagne et Normandie. Maçonnerie générale, pose de menuiserie. Devis gratuit.",
+    title: "ERTF - Isolation Thermique & Façade en Gironde",
+    description: "Entreprise spécialisée en isolation thermique ITE/ITI et ravalement de façade en Gironde. Devis gratuit.",
     images: ["/og-image.jpg"],
   },
   robots: {
