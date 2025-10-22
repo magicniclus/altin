@@ -171,7 +171,7 @@ export default function ProjectGallery({
 
             {/* Carousel Container */}
             <motion.div
-              className="relative w-full h-full flex items-center justify-center"
+              className="relative w-full h-screen flex items-center justify-center"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
@@ -180,7 +180,7 @@ export default function ProjectGallery({
             >
               <Carousel 
                 setApi={setApi}
-                className="w-full h-full max-w-[95vw] max-h-[95vh]"
+                className="w-full h-screen"
                 opts={{
                   align: "center",
                   loop: true,
@@ -189,16 +189,16 @@ export default function ProjectGallery({
                   startIndex: selectedImageIndex,
                 }}
               >
-                <CarouselContent className="-ml-1 h-full flex items-center">
+                <CarouselContent className="-ml-1 h-screen flex items-center">
                   {galleryImages.map((image, index) => (
-                    <CarouselItem key={index} className="h-full flex items-center justify-center pl-0">
-                      <div className="relative w-full h-full flex items-center justify-center p-2 md:p-4">
+                    <CarouselItem key={index} className="h-screen flex items-center justify-center pl-0">
+                      <div className="relative w-full h-screen flex items-center justify-center p-2 md:p-4">
                         <Image
                           src={image.src}
                           alt={image.alt}
                           width={1200}
                           height={800}
-                          className="object-contain max-w-full max-h-[85vh] rounded-lg"
+                          className="object-contain max-w-[90vw] max-h-[90vh] w-auto h-auto rounded-lg"
                           priority={index === current - 1}
                         />
                       </div>
