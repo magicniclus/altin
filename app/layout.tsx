@@ -78,6 +78,17 @@ export default function RootLayout({
           `}
         </Script>
 
+        {/* Event snippet for Envoi de formulaire pour leads conversion page */}
+        <Script id="google-ads-conversion" strategy="afterInteractive">
+          {`
+            gtag('event', 'conversion', {
+                'send_to': 'AW-17654607222/Ol_fCL-vwLEbEPbar-JB',
+                'value': 1.0,
+                'currency': 'EUR'
+            });
+          `}
+        </Script>
+
       </head>
       <body className="antialiased" suppressHydrationWarning>
         <Navigation />
