@@ -197,14 +197,14 @@ export default function Navigation() {
           <div className="flex flex-col h-full">
             {/* Header with close button */}
             <div className="flex justify-between items-center p-6 border-b">
-              <div className="flex items-center space-x-2">
+              <Link href="/" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
                 <motion.div 
-                  className="w-10 h-10 rounded-xl bg-orange-500 flex items-center justify-center shadow-lg overflow-hidden"
+                  className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden"
                   whileHover={{ rotate: 5 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Image 
-                    src="/logo.png" 
+                    src="/logo.jpeg" 
                     alt="Logo" 
                     width={40} 
                     height={40} 
@@ -219,7 +219,7 @@ export default function Navigation() {
                     ITE, ITI, Crépis
                   </span>
                 </div>
-              </div>
+              </Link>
               <Button 
                 variant="ghost" 
                 size="icon"
