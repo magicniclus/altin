@@ -14,31 +14,32 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "ERTF - Isolation Thermique & Façade en Gironde | ITE ITI Ravalement",
-  description: "ERTF, entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde. Devis gratuit.",
+  title: "Svarqa - Spécialiste ITE, Crépi, Taloché & Ravalement Lyon | Isolation Thermique",
+  description: "Svarqa, entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), les travaux de crépi, taloché et ravalement de façade dans la région de Lyon. Devis gratuit.",
   keywords: [
-    "isolation thermique extérieure Gironde",
-    "ITE Bordeaux",
-    "isolation intérieure ITI",
-    "ravalement façade Le Bouscat",
-    "enduit façade Gironde",
-    "bardage Bordeaux",
-    "rénovation énergétique",
+    "isolation thermique extérieure Lyon",
+    "ITE Lyon",
+    "crépi façade Lyon",
+    "taloché Lyon",
+    "ravalement façade Lyon",
+    "enduit façade Rhône",
+    "rénovation énergétique Lyon",
     "isolation thermique",
     "façade",
     "devis gratuit",
-    "ERTF",
-    "travaux isolation",
+    "Svarqa",
+    "travaux isolation Lyon",
     "garantie décennale",
-    "entreprise isolation Gironde"
+    "entreprise isolation Lyon",
+    "Altin Svarqa"
   ],
-  author: "ERTF",
-  siteUrl: "https://ertf-habitat.fr",
-  siteName: "ERTF - Isolation & Façade",
+  author: "Svarqa",
+  siteUrl: "https://svarqa.fr",
+  siteName: "Svarqa - ITE & Ravalement Lyon",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
-  twitterHandle: "@ertf"
+  twitterHandle: "@svarqa"
 };
 
 export function generateMetadata(
@@ -115,51 +116,49 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "ERTF",
-  "legalName": "ERTF EURL",
+  "name": "Svarqa",
+  "legalName": "Svarqa EURL",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Abdelkrim HAMDI"
+    "name": "Altin Svarqa"
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "81 Boulevard Pierre 1er",
-    "postalCode": "33110",
-    "addressLocality": "Le Bouscat",
-    "addressRegion": "Gironde",
+    "addressLocality": "Lyon",
+    "addressRegion": "Rhône-Alpes",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33783938694",
+    "telephone": "+33763740854",
     "contactType": "customer service",
-    "email": "ertftravaux@gmail.com",
+    "email": "altinsvarqa@gmail.com",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Gironde"
+      "name": "Rhône"
     },
     {
       "@type": "AdministrativeArea", 
-      "name": "Bordeaux"
+      "name": "Lyon"
     },
     {
       "@type": "AdministrativeArea",
-      "name": "Le Bouscat"
+      "name": "Rhône-Alpes"
     }
   ],
   "serviceType": [
     "Isolation thermique par l'extérieur",
-    "Isolation thermique par l'intérieur", 
+    "Crépi de façade", 
+    "Taloché",
     "Ravalement de façade",
-    "Enduit de façade",
-    "Bardage"
+    "Enduit de façade"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -193,8 +192,16 @@ export const servicesSchema = {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Isolation thermique par l'intérieur (ITI)",
-          "description": "Solutions d'isolation intérieure pour confort optimal"
+          "name": "Crépi et enduit de façade",
+          "description": "Application de crépi et enduits pour finitions de qualité"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Taloché",
+          "description": "Technique traditionnelle de finition murale"
         }
       },
       {
@@ -202,7 +209,7 @@ export const servicesSchema = {
         "itemOffered": {
           "@type": "Service", 
           "name": "Ravalement de façade",
-          "description": "Rénovation et embellissement des façades, enduits, bardage"
+          "description": "Rénovation et embellissement des façades"
         }
       }
     ]

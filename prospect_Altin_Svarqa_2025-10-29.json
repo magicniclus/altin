@@ -1,0 +1,41 @@
+{
+  "id": "DQzjBgK33p2PsgNRTWQA",
+  "informationsPersonnelles": {
+    "nom": "Svarqa",
+    "prenom": "Altin",
+    "email": "altinsvarqa@gmail.com",
+    "telephone": "0763740854",
+    "etape": "R1",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1761646058,
+      "nanoseconds": 636000000
+    },
+    "rgpd": false,
+    "commentaire": "Sous traitance"
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "",
+    "entreprise": "Svarqa",
+    "metier": "ITE, crepi, taloché, ravalement",
+    "secteurActivite": "Lyon",
+    "raisonSociale": "EURL",
+    "anneeCreation": "2025",
+    "nombreCollaborateurs": "2-5",
+    "prestation": "",
+    "rayonIntervention": "100",
+    "certifications": "",
+    "garanties": "Décennale",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-10-29T16:07:36.956Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

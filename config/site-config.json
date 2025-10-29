@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "ERTF",
-    "legalName": "ERTF EURL",
-    "address": "81 Boulevard Pierre 1er, 33110 Le Bouscat",
-    "phone": "07 83 93 86 94",
-    "email": "ertftravaux@gmail.com",
+    "name": "Svarqa",
+    "legalName": "Svarqa EURL",
+    "address": "Lyon et région Rhône-Alpes",
+    "phone": "07 63 74 08 54",
+    "email": "altinsvarqa@gmail.com",
     "siret": "",
-    "ceo": "Abdelkrim HAMDI"
+    "ceo": "Altin Svarqa"
   },
   "hero": {
-    "title": "ERTF - Isolation et Façade",
-    "subtitle": "Entreprise du secteur du BTP spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde.",
+    "title": "Svarqa - Spécialiste ITE et Ravalement",
+    "subtitle": "Entreprise du secteur du BTP spécialisée dans l'isolation thermique par l'extérieur (ITE), les travaux de crépi, taloché et ravalement de façade dans la région de Lyon.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "/contenu/hero1.jpg",
@@ -21,8 +21,8 @@
       {
         "smallTitle": "Notre expertise",
         "title": "Isolation thermique",
-        "subtitle": "ITE et ITI de qualité",
-        "content": "ERTF est spécialisée dans l'isolation thermique par l'extérieur (ITE) et l'isolation intérieure (ITI). Nous accompagnons particuliers et professionnels dans la rénovation énergétique en alliant performance, durabilité et esthétique. Grâce à notre équipe expérimentée et à l'utilisation de matériaux de qualité, nous garantissons des prestations conformes aux normes en vigueur.",
+        "subtitle": "ITE de qualité professionnelle",
+        "content": "Svarqa est spécialisée dans l'isolation thermique par l'extérieur (ITE). Nous accompagnons particuliers et professionnels dans la rénovation énergétique en alliant performance, durabilité et esthétique. Grâce à notre équipe expérimentée de 2 à 5 professionnels et à l'utilisation de matériaux de qualité, nous garantissons des prestations conformes aux normes en vigueur.",
         "image": "/contenu/about1.jpeg",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
@@ -32,9 +32,9 @@
       },
       {
         "smallTitle": "Nos spécialités",
-        "title": "Ravalement et façade",
+        "title": "Crépi, taloché et ravalement",
         "subtitle": "Embellissement et protection",
-        "content": "Nous réalisons tous vos travaux d'enduit, ravalement de façade et bardage en Gironde. Que ce soit pour rénover votre façade ou moderniser votre extérieur, ERTF vous apporte des solutions sur mesure adaptées à chaque type de bâtiment pour un confort durable et des économies d'énergie.",
+        "content": "Nous réalisons tous vos travaux de crépi, taloché et ravalement de façade dans la région de Lyon. Que ce soit pour rénover votre façade ou moderniser votre extérieur, Svarqa vous apporte des solutions sur mesure adaptées à chaque type de bâtiment pour un confort durable et des économies d'énergie.",
         "image": "/chantiers/14.jpeg",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -228,9 +228,9 @@
   "team": {
     "members": [
       {
-        "name": "Mr HAMDI",
-        "position": "Gérant ERTF",
-        "description": "Gérant d'ERTF depuis 2022, spécialisé dans l'isolation thermique et les travaux de façade. 4 ans d'expérience en tant que conducteur de travaux en tout corps d'état et façade. Certifié ITE avec garantie décennale.",
+        "name": "Altin Svarqa",
+        "position": "Gérant Svarqa",
+        "description": "Gérant de Svarqa EURL depuis 2025, spécialisé dans l'isolation thermique par l'extérieur (ITE), les travaux de crépi, taloché et ravalement de façade. Expert en rénovation énergétique avec garantie décennale.",
         "photo": "/client.jpeg"
       }
     ]

@@ -43,17 +43,17 @@ export default function Footer() {
                   />
                 </motion.div>
                 <span className="text-xl font-bold">
-                  ERTF
+                  Svarqa
                 </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                EURL spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI) et les travaux de façade en Gironde.
+                EURL spécialisée dans l'isolation thermique par l'extérieur (ITE), les travaux de crépi, taloché et ravalement de façade dans la région de Lyon.
               </p>
               <a 
-                href="tel:0783938694" 
+                href="tel:0763740854" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                07 83 93 86 94
+                07 63 74 08 54
               </a>
             </motion.div>
 
@@ -92,11 +92,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0783938694"
+                  href="tel:0763740854"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>07 83 93 86 94</span>
+                  <span>07 63 74 08 54</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Service gratuit 7j/7 de 9h à 19h
@@ -117,7 +117,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} ERTF. Tous droits réservés.
+              © {currentYear} Svarqa. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

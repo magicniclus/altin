@@ -22,48 +22,40 @@ export default function Home() {
   const servicesData = [
     {
       title: "Isolation Thermique Extérieure",
-      subtitle: "ITE de qualité",
-      content: "Amélioration de la performance énergétique de votre bâtiment avec notre expertise en isolation thermique par l'extérieur. Matériaux de qualité et conformité aux normes.",
+      subtitle: "ITE professionnelle",
+      content: "Spécialiste de l'isolation thermique par l'extérieur (ITE) dans la région de Lyon. Amélioration de la performance énergétique avec des matériaux de qualité et une expertise reconnue.",
       image: "/card1.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b"
     },
     {
-      title: "Isolation Thermique Intérieure",
-      subtitle: "ITI performante",
-      content: "Solutions d'isolation intérieure adaptées à votre logement pour un confort optimal et des économies d'énergie durables.",
-      image: "/card2.png",
+      title: "Crépi et Enduit",
+      subtitle: "Finitions de qualité",
+      content: "Application de crépi et enduits pour vos façades avec un savoir-faire artisanal. Finitions durables et esthétiques adaptées à tous types de bâtiments.",
+      image: "/contenu/enduit.jpeg",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2"
     },
     {
-      title: "Ravalement de Façade",
-      subtitle: "Embellissement et protection",
-      content: "Rénovation et embellissement de vos façades avec des techniques professionnelles. Enduits, bardage et solutions sur mesure.",
-      image: "/contenu/ravelemement.jpeg",
+      title: "Taloché",
+      subtitle: "Technique traditionnelle",
+      content: "Maîtrise de la technique du taloché pour des finitions murales authentiques et durables. Expertise artisanale pour tous vos projets de façade.",
+      image: "/card2.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997"
     },
     {
-      title: "Bardage",
-      subtitle: "Modernisation et protection",
-      content: "Installation de bardage pour moderniser votre façade tout en assurant une protection optimale contre les intempéries.",
-      image: "/contenu/bardage.png",
+      title: "Ravalement de Façade",
+      subtitle: "Rénovation complète",
+      content: "Rénovation et embellissement de vos façades dans la région de Lyon. Techniques professionnelles pour redonner vie à vos murs extérieurs.",
+      image: "/contenu/ravelemement.jpeg",
       gradientFrom: "#8B4513",
       gradientTo: "#D2691E"
     },
     {
-      title: "Enduit",
-      subtitle: "Finition et esthétique",
-      content: "Application d'enduits de qualité pour une finition parfaite de vos façades, alliant durabilité et esthétique.",
-      image: "/contenu/enduit.jpeg",
-      gradientFrom: "#708090",
-      gradientTo: "#B0C4DE"
-    },
-    {
       title: "Votre Projet",
       subtitle: "Demandez votre devis",
-      content: "Vous avez un projet d'isolation ou de façade ? Contactez-nous pour un devis personnalisé et gratuit adapté à vos besoins.",
+      content: "Vous avez un projet d'ITE, crépi, taloché ou ravalement ? Contactez Svarqa pour un devis personnalisé et gratuit adapté à vos besoins.",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
       isCallToAction: true
@@ -73,10 +65,10 @@ export default function Home() {
 
 
   const contactInfo = {
-    address: "81 Boulevard Pierre 1er\n33110 Le Bouscat\nRayon d'intervention : 150 km",
-    phone: "07 83 93 86 94",
-    email: "ertftravaux@gmail.com",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Le+Bouscat,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    address: "Lyon et région Rhône-Alpes\nRayon d'intervention : 100 km",
+    phone: "07 63 74 08 54",
+    email: "altinsvarqa@gmail.com",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Lyon,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -127,7 +119,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet d'isolation thermique et façade en Gironde"
+        subtitle="Parlons de votre projet d'isolation thermique et façade dans la région de Lyon"
         contactInfo={contactInfo} 
       />
 
