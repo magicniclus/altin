@@ -35,7 +35,7 @@ export default function Footer() {
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Image 
-                    src="/logo.jpeg" 
+                    src="/logo.png" 
                     alt="Logo" 
                     width={40} 
                     height={40} 
