@@ -13,7 +13,7 @@
     "subtitle": "Entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
-    "backgroundImage": "/chantiers/7.jpeg",
+    "backgroundImage": "/contenu/hero1.jpg",
     "backgroundVideo": ""
   },
   "about": {
@@ -23,7 +23,7 @@
         "title": "Isolation thermique",
         "subtitle": "ITE et ITI de qualité",
         "content": "ERTF est spécialisée dans l'isolation thermique par l'extérieur (ITE) et l'isolation intérieure (ITI). Nous accompagnons particuliers et professionnels dans la rénovation énergétique en alliant performance, durabilité et esthétique. Grâce à notre équipe expérimentée et à l'utilisation de matériaux de qualité, nous garantissons des prestations conformes aux normes en vigueur.",
-        "image": "/chantiers/4.jpeg",
+        "image": "/contenu/about1.jpeg",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
         "buttonText": "Voir nos réalisations",

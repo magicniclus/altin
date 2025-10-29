@@ -10,6 +10,7 @@ interface ServiceCard {
   image?: string;
   gradientFrom?: string;
   gradientTo?: string;
+  isCallToAction?: boolean;
 }
 
 interface ServicesSectionProps {
@@ -54,11 +55,7 @@ export default function ServicesSection({
         </motion.div>
 
         {/* Cards Grid */}
-        <div className={`grid gap-8 ${
-          cards.length === 2 ? 'md:grid-cols-2' :
-          cards.length === 3 ? 'md:grid-cols-2 lg:grid-cols-3' :
-          'md:grid-cols-2 lg:grid-cols-4'
-        }`}>
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {cards.map((card, index) => (
             <motion.div
               key={index}
@@ -95,9 +92,17 @@ export default function ServicesSection({
                   <h4 className="text-lg font-medium text-orange-500 mb-3">
                     {card.subtitle}
                   </h4>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-gray-600 leading-relaxed mb-4">
                     {card.content}
                   </p>
+                  {card.isCallToAction && (
+                    <a
+                      href="#contact-form"
+                      className="inline-flex items-center justify-center px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-colors duration-300 text-center"
+                    >
+                      Demander un devis
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>

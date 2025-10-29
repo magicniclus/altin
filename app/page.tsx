@@ -40,9 +40,33 @@ export default function Home() {
       title: "Ravalement de Façade",
       subtitle: "Embellissement et protection",
       content: "Rénovation et embellissement de vos façades avec des techniques professionnelles. Enduits, bardage et solutions sur mesure.",
-      image: "/card3.png",
+      image: "/contenu/ravelemement.jpeg",
       gradientFrom: "#28a745",
       gradientTo: "#20c997"
+    },
+    {
+      title: "Bardage",
+      subtitle: "Modernisation et protection",
+      content: "Installation de bardage pour moderniser votre façade tout en assurant une protection optimale contre les intempéries.",
+      image: "/contenu/bardage.png",
+      gradientFrom: "#8B4513",
+      gradientTo: "#D2691E"
+    },
+    {
+      title: "Enduit",
+      subtitle: "Finition et esthétique",
+      content: "Application d'enduits de qualité pour une finition parfaite de vos façades, alliant durabilité et esthétique.",
+      image: "/contenu/enduit.jpeg",
+      gradientFrom: "#708090",
+      gradientTo: "#B0C4DE"
+    },
+    {
+      title: "Votre Projet",
+      subtitle: "Demandez votre devis",
+      content: "Vous avez un projet d'isolation ou de façade ? Contactez-nous pour un devis personnalisé et gratuit adapté à vos besoins.",
+      gradientFrom: "#ff7e5f",
+      gradientTo: "#feb47b",
+      isCallToAction: true
     }
   ];
 
