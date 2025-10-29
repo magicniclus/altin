@@ -13,7 +13,7 @@
     "subtitle": "Entreprise du secteur du BTP spécialisée dans l'isolation thermique par l'extérieur (ITE), les travaux de crépi, taloché et ravalement de façade dans la région de Lyon.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
-    "backgroundImage": "/contenu/hero1.jpg",
+    "backgroundImage": "/maison-hero.png",
     "backgroundVideo": ""
   },
   "about": {
@@ -23,7 +23,7 @@
         "title": "Isolation thermique",
         "subtitle": "ITE de qualité professionnelle",
         "content": "Svarqa est spécialisée dans l'isolation thermique par l'extérieur (ITE). Nous accompagnons particuliers et professionnels dans la rénovation énergétique en alliant performance, durabilité et esthétique. Grâce à notre équipe expérimentée de 2 à 5 professionnels et à l'utilisation de matériaux de qualité, nous garantissons des prestations conformes aux normes en vigueur.",
-        "image": "/contenu/about1.jpeg",
+        "image": "/maison-2.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
         "buttonText": "Voir nos réalisations",
@@ -35,7 +35,7 @@
         "title": "Crépi, taloché et ravalement",
         "subtitle": "Embellissement et protection",
         "content": "Nous réalisons tous vos travaux de crépi, taloché et ravalement de façade dans la région de Lyon. Que ce soit pour rénover votre façade ou moderniser votre extérieur, Svarqa vous apporte des solutions sur mesure adaptées à chaque type de bâtiment pour un confort durable et des économies d'énergie.",
-        "image": "/chantiers/14.jpeg",
+        "image": "/contenu/bardage.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
         "buttonText": "Contactez-nous",

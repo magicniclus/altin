@@ -16,7 +16,7 @@ import {
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [showFloatingButton, setShowFloatingButton] = useState(false);
-  const phoneNumber = "07 83 93 86 94";
+  const phoneNumber = "07 63 74 08 54";
 
   const navigationLinks = [
     { name: 'Mon expertise', href: '#expertise' },
@@ -68,12 +68,12 @@ export default function Navigation() {
           >
             <Link href="/" className="flex items-center space-x-2">
               <motion.div 
-                className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden"
+                className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center overflow-hidden"
                 whileHover={{ rotate: 5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Image 
-                  src="/logo.jpeg" 
+                  src="/logo.png" 
                   alt="Logo" 
                   width={40} 
                   height={40} 
@@ -81,8 +81,8 @@ export default function Navigation() {
                 />
               </motion.div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-gray-900">ERTF-Habitat</span>
-                <span className="text-xs text-gray-600 font-medium">ITE, ITI, Crépis</span>
+                <span className="text-xl font-bold text-gray-900">Svarqa</span>
+                <span className="text-xs text-gray-600 font-medium">ITE, Crépi, Taloché</span>
               </div>
             </Link>
           </motion.div>
@@ -199,12 +199,12 @@ export default function Navigation() {
             <div className="flex justify-between items-center p-6 border-b">
               <Link href="/" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
                 <motion.div 
-                  className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden"
+                  className="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center overflow-hidden"
                   whileHover={{ rotate: 5 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Image 
-                    src="/logo.jpeg" 
+                    src="/logo.png" 
                     alt="Logo" 
                     width={40} 
                     height={40} 
@@ -213,10 +213,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    ERTF-Habitat
+                    Svarqa
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    ITE, ITI, Crépis
+                    ITE, Crépi, Taloché
                   </span>
                 </div>
               </Link>
